@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 720px) {
+    nav .menu a{
+        display:none;
+    }
+    nav .menu .icon{
+        display: block!important;
+        float:right;
+        cursor:pinter!important;
+    }
+    .col-100.responsive {
+        position:relative;
+        }
+    .col-100.responsive .icon{
+        position: absolute;
+        right: 20px;
+        top: 0;
+        margin: 0;
+    }
+    .col-100.responsive a{
+        text-align:left;
+        float: left;
+        right:60%;
+        display: block;
+        position: relative;
+        top: 0;
+        animation: fadeInRight 1s;
+    }
+    #about{
+        height:1000px;
+    }
+    #about a{
+        top:90%;
+    }
+    #register{
+        height:700px;
+    }
+    #register .join-us,#register .volunteer{
+        clear:left;
+        width:100%!important;
+    }
+}

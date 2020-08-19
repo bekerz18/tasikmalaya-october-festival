@@ -62,7 +62,7 @@ nav .menu a.icon{
 
 /* Header Start */
 header{
-    background:#000 url('/assets/img/about.jpg') no-repeat;   
+    background:#000 url('https://bekerz18.github.io/tasikmalaya-october-festival/assets/img/about.jpg') no-repeat;   
     background-size: cover;
     height:700px;
     position: inherit;
